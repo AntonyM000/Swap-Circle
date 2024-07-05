@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-const Logo = () => {
+const Logo = ({ isHome }) => {
+  const homeClass = isHome ? 'w-full justify-center flex' : '';
+
   return (
     <>
-    <div className='w-full justify-center flex'>
-    <img src={"/SwapLogo.png"} alt="Swap Circle" className='h-20  w-24'/>
-    </div>
+      <div className={homeClass}>
+        <img src={"/SwapLogo.png"} alt="Swap Circle" className='h-20 w-24' />
+      </div>
     </>
-  )
+  );
 }
 
-export default Logo
+export default Logo;
