@@ -6,7 +6,7 @@ const Logo = ({ isHome }) => {
   return (
     <>
       <div className={homeClass}>
-        <img src={"/SwapLogo.png"} alt="Swap Circle" className='h-20 w-24' />
+        <img src={"/SwapLogo.png"} alt="Swap Circle" className=' w-20' />
       </div>
     </>
   );
