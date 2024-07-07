@@ -20,7 +20,7 @@ const LandingPage = () => {
     <div className='w-full flex place-content-center'>
       <h3 className='w-10/12'>Events and opportunities  to exchange clothing items with others, fostering a circular economy in fashion.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit, magna id lobortis pretium, nisl nulla faucibus orci, rhoncus posuere olor</h3>
     </div>
-    <h2 className='text-red-700 text-3xl '>check the gallery page-13% done semi-stable</h2>
+    <h2 className='text-red-700 text-3xl '>check the gallery page-40% done semi-stable</h2>
     
     </>
   )

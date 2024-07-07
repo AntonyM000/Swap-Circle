@@ -2,12 +2,13 @@ import React from 'react'
 import images from '../images.json'
 import Header from '../components/Header'
 import Logo from '../components/Logo'
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 
 const Gallery = () => {
     // images.map((image)=>(
     //     <img src={image.url} key={image.id} image={image}/>
     //     ))
-    
+    const columnsCountBreakPoints = { 350: 1, 750: 2, 900: 3 };
     
   return (
     <div className='flex flex-col mx-auto text-center '>
@@ -15,15 +16,38 @@ const Gallery = () => {
 
     <h2 className='text-2xl font-normal font-sans -mt-16 ml-3 mr-3 mb-3'>We value</h2>
     <h1 className=' text-6xl font-bold  m-2'>Community</h1>
-    <div className='bg-white flex flex-wrap justify-center'>
+
+
+    
+<div className="rounded-lg m-2 flex justify-center items-center">
+  <img src='landingCarouselOne.jpg' alt="" className="rounded-lg max-w-full max-h-full object-contain" style={{ maxWidth: '100%', maxHeight: '50vh' }} />
+</div>
+
+
+
+<ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
+  <Masonry gutter={4}>
+    {images.reverse().map((image) => (
+      <img className='rounded-xl' src={image.url} />
+    ))}
+  </Masonry>
+  </ResponsiveMasonry>
+
+    {/* <div className='bg-white flex flex-wrap justify-center'>
         {images.map((image)=>(            
 
-            <div className=" rounded-lg w-4/12 h-1/5 m-2"> 
-           <img src={image.url} alt="" className=" rounded-lg   " />
-             </div>
+        <div className="rounded-lg m-2 flex justify-center items-center">
+        <img src={image.url} alt="" className="rounded-lg max-w-full max-h-full object-contain" style={{ maxWidth: '100%', maxHeight: '50vh' }} />
+        </div>
+
+
+
+          //   <div className=" rounded-lg w-4/12 h-1/5 m-2 flex justify-center items-center"> 
+          //  <img src={image.url} alt="" className=" rounded-lg  h-auto w-auto max-w-full max-h-full  " />
+          //    </div>
         ))}
         
-    </div>
+    </div> */}
 
 
 
