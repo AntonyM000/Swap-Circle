@@ -9,6 +9,8 @@ const Header = () => {
         <NavLink className={linkClass} to='/' >Discover</NavLink>
         {/* <button className=' p-1 rounded-xl text-white focus:ring-1 focus:ring-red-200 ring-offset-1 m-auto' >Team</button> */}
         <NavLink className={linkClass} to='/gallery' >Gallery </NavLink>
+        <NavLink className={linkClass} to='/team' >Team </NavLink>
+
         {/* <button className=' p-1 rounded-xl text-white focus:ring-1 focus:ring-red-200 ring-offset-1 m-auto' >About</button> */}
         {/* <button className='border-solid border-2 p-1 rounded-xl border-white  text-white focus:ring-1 focus:ring-red-200 ring-offset-1 m-auto bg-yellow-700' >Events</button> */}
 
