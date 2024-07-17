@@ -11,11 +11,11 @@ function MyVerticallyCenteredModal({show,onHide, teammember}) {
         <>
            
             <Modal show={show} size="lg" aria-labelledby="contained-modal-title-vcenter" centered onHide={onHide}>
-                {/* <Modal.Header className="bg-dark text-white" closeButton>
-                    <Modal.Title id="contained-modal-title-vcenter">
+                <Modal.Header className="bg-white text-white" closeButton>
+                    {/* <Modal.Title id="contained-modal-title-vcenter">
                         {teammember.name}
-                    </Modal.Title>
-                </Modal.Header> */}
+                    </Modal.Title> */}
+                </Modal.Header>
                 <Modal.Body className="bg-white text-black">
                 <div className='flex  rounded-3xl m-3'>
                         <img src={teammember.url} alt="" className="rounded-2xl w-1/2 object-contain" />
@@ -53,7 +53,7 @@ const Team = () => {
             
 
             <div className="rounded-lg m-2 flex flex-wrap justify-center items-center">
-                {team.reverse().map((teammember) => (
+                {team.map((teammember) => (
                     <div key={teammember.id} onClick={()=>handleShowModal(teammember)} className='m-3 cursor-pointer'>
                         <img src={teammember.url} alt="" className="rounded-lg w-48 object-contain" />
                         <h3 className='text-2xl font-semibold '>{teammember.name}</h3>

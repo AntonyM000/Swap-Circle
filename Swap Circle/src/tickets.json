@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "imgsrc": "/Swap Circle/public/ticketimages",
+        "date": "24-07-23",
+        "title": "Swap circle group ticket",
+        "price": "1000",
+        "location": "Nairobi Street Kitchen"
+      },
+      {
+        "id": 2,
+        "name": "Ramani Afanale",
+        "role": "Online Marketer",
+        "url": "teamimages/pexels-bestbe-models-975242-2100650.jpg ",
+        "description": "Ramani Afanale is a psychology graduate from Kenyatta University. Her academic journey in psychology has given her profound insights into the human mind and behavior, fueling her passion for understanding and helping others.Ramani's interests lie in mental health, emotional well-being, and the societal impacts of psychological principles. Her approach to psychology is both empathetic and analytical, allowing her to connect deeply with individuals while applying evidence-based methods to support their mental health. A compassionate and curious individual, Ramani finds joy in volunteering at local mental health clinics, where she provides support and guidance to those in need. She believes in the power of community and often organizes workshops to educate people about mental health, aiming to break the stigma and promote a culture of understanding and acceptance. Ramani is also an avid reader and enjoys exploring the latest research in psychology, constantly seeking to expand her knowledge and apply new findings to her practice. Her dedication to learning is matched by her desire to empower others, particularly women, to overcome challenges and achieve their full potential.Beyond her academic and professional pursuits, Ramani loves spending time outdoors, where she finds peace and inspiration. Whether she's meditating in a quiet park or participating in community yoga sessions, she values activities that nurture her well-being and allow her to connect with nature. Her commitment to mental health, combined with her empathetic nature and continuous quest for knowledge, makes Ramani Afanale a remarkable advocate for psychological well-being and a source of inspiration for those around her."
+      },
+      {
+        "id": 3,
+        "name": "Maritim Afanale",
+        "role": "Photo Journalist",
+        "url": "teamimages/pexels-luana-2080322.jpg",
+        "description": "Maritim Afanale is a dedicated student currently pursuing a degree in Petroleum Engineering at Kenyatta University. Her academic journey in petroleum engineering has fueled her passion for energy exploration, production processes, and environmental sustainability within the petroleum industry.Maritim is known for her analytical mindset and problem-solving skills, which she applies to understand and innovate within the field. She is committed to advancing technologies that improve efficiency and reduce environmental impact in oil and gas operations. Her goal is to contribute to the development of cleaner energy solutions that align with global environmental standards. Outside of her studies, Maritim actively engages in community activities and initiatives that promote education, environmental conservation, and youth empowerment. She participates in mentoring programs and volunteers her time to support causes she believes in, reflecting her leadership skills and commitment to making a positive impact. Maritim Afanale's dedication to he"
+      }
+      
+      ]
+  

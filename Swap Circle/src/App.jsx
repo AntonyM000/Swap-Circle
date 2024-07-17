@@ -4,6 +4,7 @@ import { Route, RouterProvider, Routes, createBrowserRouter, createRoutesFromEle
 import LandingPage from './pages/LandingPage';
 import Gallery from './pages/Gallery';
 import Team from './pages/Team';
+import Tickets from './pages/Tickets';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,6 +14,8 @@ const router = createBrowserRouter(
     <Route index element={<LandingPage/>}/>
     <Route path='/gallery' element={<Gallery/>}/>
     <Route path='/team' element={<Team/>}/>
+    <Route path='/tickets' element={<Tickets/>}/>
+
 
   </Route>
     

@@ -28,30 +28,30 @@ const Gallery = () => {
 
 
 
-{/* <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
+
+    <div className='bg-white flex flex-wrap justify-center'>
+        {images.map((image)=>(            
+
+        <div className="rounded-lg m-2 flex justify-center items-center">
+        <img src={image.url} alt="" className="rounded-lg max-w-full max-h-full object-contain" style={{ maxWidth: '100%', maxHeight: '50vh' }} />
+        </div>
+
+
+
+          //   <div className=" rounded-lg w-4/12 h-1/5 m-2 flex justify-center items-center"> 
+          //  <img src={image.url} alt="" className=" rounded-lg  h-auto w-auto max-w-full max-h-full  " />
+          //    </div>
+        ))}
+        
+    </div>
+
+<ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
   <Masonry gutter={4}>
     {images.reverse().map((image) => (
       <img className='rounded-xl' src={image.url} />
     ))}
   </Masonry>
-  </ResponsiveMasonry> */}
-
-    <div className='bg-white flex flex-wrap justify-center'>
-        {images.map((image)=>(            
-
-        // <div className="rounded-lg m-2 flex justify-center items-center">
-        // <img src={image.url} alt="" className="rounded-lg max-w-full max-h-full object-contain" style={{ maxWidth: '100%', maxHeight: '50vh' }} />
-        // </div>
-
-
-
-            <div className=" rounded-lg w-4/12 h-1/5 m-2 flex justify-center items-center"> 
-           <img src={image.url} alt="" className=" rounded-lg  h-auto w-auto max-w-full max-h-full  " />
-             </div>
-        ))}
-        
-    </div>
-
+  </ResponsiveMasonry>
 
 
     <div className="bg-white rounded-xl shadow-md relative">

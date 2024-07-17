@@ -1,6 +1,6 @@
 import React from 'react'
 import Gallery from './Gallery'
-// import { GoArrowUpRight } from 'react-icons/go'
+ import { GoArrowUpRight } from 'react-icons/go'
 
 const LandingPage = () => {
   // const isHome = true;
@@ -12,7 +12,7 @@ const LandingPage = () => {
        <h1 className="text-3xl text-white font-bold underline mb-10  ">SUSTAINABLE FASHION THROUGH SWAPPING</h1>
        <h2 className='text-white'>Elevate your wardrobe while saving the planet</h2>
       <button className="text-white border-2 rounded-3xl flex p-1 mb-3 mt-12 w-3/12">See Events
-       {/* <GoArrowUpRight/>  */}
+        <GoArrowUpRight/>  
        </button>
       </div>
        
