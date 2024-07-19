@@ -33,10 +33,10 @@ const Tickets = () => {
 </div>
        </div>
        <div className=' m-4 rounded-3xl '>
-         <div className=" bg-[url('eventimages/432935191_741126114825125_4144358458579219024_n.jpg')] rounded-t-xl  bg-no-repeat  w-48 bg-cover   container  "> 
+         <div className=" bg-[url('/eventimages/432935191_741126114825125_4144358458579219024_n.jpg')] rounded-t-xl  bg-no-repeat  w-48 bg-cover   container  "> 
          <div className="container-xl   ">
         
-            <img src="eventimages/432935191_741126114825125_4144358458579219024_n.jpg" alt="" className=' ' />
+            <img src="/eventimages/432935191_741126114825125_4144358458579219024_n.jpg" alt="" className=' ' />
          </div>
          </div>
 
