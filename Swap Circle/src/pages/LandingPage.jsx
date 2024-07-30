@@ -24,7 +24,7 @@ const LandingPage = () => {
     <h2 className='text-red-700 text-3xl '>check the gallery page- team page ticket page kinda-done semi-stable</h2>
     <div className="flex flex-wrap">
   <div className="container flex flex-wrap m-auto">
-    <Link className="m-2 w-" to="/gallery">
+    <Link className="m-auto " to="/gallery">
       <div className="bg-[url('/eventimages/IMG_3267.jpg')] bg-no-repeat bg-cover bg-center flex flex-col  justify-center  relative rounded-xl w-56 h-56">
       <div className='absolute inset-0 rounded-xl bg-green-200 bg-opacity-50 flex flex-col justify-center p-2'>
        <h1 className="text-3xl justify-center text-white font-bold underline mb-10  ">Gallery</h1>
