@@ -79,7 +79,7 @@ const LandingPage = () => {
             </div>      
           </Link>
           <Link className="ml-9 mt-3 " to="/tickets">
-            <div className="bg-[url('eventimages/IMG_3258.jpg')] bg-no-repeat bg-cover bg-center flex flex-col  justify-center  relative rounded-xl w-56 h-56">
+            <div className="bg-[url('/eventimages/IMG_3258.jpg')] bg-no-repeat bg-cover bg-center flex flex-col  justify-center  relative rounded-xl w-56 h-56">
             <div className='absolute inset-0 rounded-xl bg-red-200 bg-opacity-50 flex flex-col justify-center p-2'>
             <h1 className="text-3xl justify-center text-white font-bold underline mb-10 ">Tickets</h1>
             </div>
@@ -124,7 +124,7 @@ We only accept panties and hosiery that are new with tags.</p>
 </div>
 </div>
 <br />
-<footer>hbn</footer>
+{/* <footer>hbn</footer> */}
 
 
 
