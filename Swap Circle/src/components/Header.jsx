@@ -27,11 +27,11 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto gap-8">
         
-            <Nav.Link href="/" className={linkClass} to="/" >Discover</Nav.Link>
-            <Nav.Link href="/Gallery" className={linkClass} to="/gallery">Gallery</Nav.Link >
-            <Nav.Link href="/tickets" className={linkClass} to='/tickets' >Tickets </Nav.Link >
-            <Nav.Link href="/team" className={linkClass} to='/team' >Team </Nav.Link>
-            <Nav.Link href="/about" className={linkClass} to='/about' >About </Nav.Link>
+            <NavLink href="/" className={linkClass} to="/" >Discover</NavLink>
+            <NavLink href="/Gallery" className={linkClass} to="/gallery">Gallery</NavLink >
+            <NavLink href="/tickets" className={linkClass} to='/tickets' >Tickets </NavLink >
+            <NavLink href="/team" className={linkClass} to='/team' >Team </NavLink>
+            <NavLink href="/about" className={linkClass} to='/about' >About </NavLink>
             
           </Nav>
         </Navbar.Collapse>
