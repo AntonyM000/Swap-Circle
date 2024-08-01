@@ -10,7 +10,7 @@ const LandingPage = () => {
   }
   // const isHome = true;
   return (
-    <>
+    <div className='flex w-full flex-col'>
    
 
 
@@ -36,9 +36,8 @@ const LandingPage = () => {
         </button>
       </div>
     </div>
-//
-<div className='mt-16'>dsdsada</div>
-    
+a
+            b
     <div className="bg-[url('/landingCarouselOne.jpg')] w-full h-96 p-2 bg-no-repeat bg-cover bg-center flex flex-col  justify-center  relative">
       <div className='absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center p-2'>
 
@@ -50,12 +49,12 @@ const LandingPage = () => {
       </div>
        
     </div>
-    <div className=' flex w-full'>
+    <div className=' flex w-full ml-auto mr-auto'>
       <div className='container place-content-center'>
           <h1 className="text-3xl text-center m-4">Elevate your wardrobe while saving the planet</h1>
-          <h3 className='w-10/12 text-center'>Events and opportunities  to exchange clothing items with others, fostering a circular economy in fashion.Discover a world of endless possibilities at Swap Circle, where like-minded individuals come together to share, trade, and connect. Our vibrant community is your go-to platform for swapping everything from fashion and electronics to home goods and collectibles.
+          <h3 className='w-10/12 text-center ml-auto mr-auto'>Events and opportunities  to exchange clothing items with others, fostering a circular economy in fashion.Discover a world of endless possibilities at Swap Circle, where like-minded individuals come together to share, trade, and connect. Our vibrant community is your go-to platform for swapping everything from fashion and electronics to home goods and collectibles.
           </h3>
-          <h3 className='w-10/12 text-center'>Experience the thrill of finding hidden treasures, giving new life to pre-loved items, and reducing your environmental impact. Join the Swap Circle movement today and unlock a sustainable and exciting way to refresh your life!</h3>
+          <h3 className='w-10/12 text-center ml-auto mr-auto'>Experience the thrill of finding hidden treasures, giving new life to pre-loved items, and reducing your environmental impact. Join the Swap Circle movement today and unlock a sustainable and exciting way to refresh your life!</h3>
       </div>
     </div>
 
@@ -88,6 +87,32 @@ const LandingPage = () => {
           </Link>
         </div>
     </div>
+
+{/*SwapRules*/}
+<div className=" w-3/4 flex justify-center mt-3 ml-auto mr-auto  rounded flex-col text-center">
+  <h1 className="font-bold">About Swapmeets</h1>
+  <p className="">During swapmeets we bring together</p>
+  <p className='mt-2'>*MAXIMUM OF 8 CLOTHING ITEMS*</p>
+  <p className='mt-2'>*NO USED PANTIES*</p>
+  <p className='mt-2'>*NO USED HOSIERY*</p>
+  <p className='mt-2'>*NO HANDBAGS*</p>
+  <p className='mt-2'>*NO WOMEN'S SHOES*</p>
+  <img src="washing-machine_810199.png" alt="" className="w-1/4 m-auto"/>
+  <p className="mt-2 font-bold">ITEMS MUST BE CLEAN & IN GOOD CONDITION</p>
+  <p className='mt-2'>*NO STAINS OR FADING*</p>
+  <p className='mt-2'>*NO TEARS,RIPS OR HOLES*</p>
+  <p className='mt-2'>*NO UNDERARM STAINS OR ODORS*</p>
+  <p className='mt-2'>*NO USED PANTIES*</p>
+  <p className="text-xs mt-2">We only accept fashion jewelry (costume jewelry) and do not accept fine jewelry.
+Fashion jewelry should not be made of precious metals, gemstones, pearls, or diamonds.
+If diamonds are sent, they will be assumed to be fake.
+We only accept panties and hosiery that are new with tags.</p>
+
+</div>
+<br />
+
+
+
 {/* socials section */}
 {/* blog section */}
     {/* <div className="align-middle w-1/2 ">
@@ -104,7 +129,7 @@ const LandingPage = () => {
 
 
     
-    </>
+    </div>
   )
 }
 
