@@ -5,8 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        gliker: ['Gliker', 'sans-serif'],
+      },
+    },
   },
+  variants: {},
   plugins: [],
 }
 
