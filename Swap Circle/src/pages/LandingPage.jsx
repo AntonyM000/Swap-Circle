@@ -97,7 +97,7 @@ const LandingPage = () => {
        <div className=' w-52 lg:container-sm  mt-2 bg-yellow-100 rounded flex flex-col justify-center float-left text-center  p-2'><img src="yellowstaredown.png" alt="" className='w-14'/>Step one:Get some tokens(points) awarded to the clothes you bought. The tokens you got will enable you to swap clothes</div>
      
 
-    <div className="w-52  ml-auto mt-2 bg-yellow-100 rounded flex flex-col justify-center text-center mr-4 p-2"><img src="/yellow tap.png" alt="" className='w-14' />Step two: You can now walk around and get the apparels you love. We also have vending tables.</div>
+    <div className="w-52  ml-auto mt-2 bg-yellow-100 rounded flex flex-col justify-center text-center  p-2"><img src="/yellow tap.png" alt="" className='w-14' />Step two: You can now walk around and get the apparels you love. We also have vending tables.</div>
     <div className="w-52  ml-auto mt-2 bg-yellow-100 rounded flex flex-col justify-center text-center mr-auto p-2"><img src="/yellowmeditate.png" alt="" className='w-14 ml-auto mr-auto' />Step three: Use the points to check out clothes from the inventory</div>
 </div>
   {/* <video src="/swap video.mp4" className="ml-auto mr-auto mt-3 w-64 rounded-xl" controls></video> */}
