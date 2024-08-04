@@ -29,10 +29,10 @@ const Header = () => {
     <Navbar.Toggle aria-controls="basic-navbar-nav" className='border-white ' />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto gap-8">
-        <Nav.Link href="/" className='text-white font-gliker' to="/">Discover</Nav.Link>
-        <Nav.Link href="/Gallery" className='text-white font-gliker' to="/gallery">Gallery</Nav.Link>
-        <Nav.Link href="/tickets" className='text-white font-gliker' to='/tickets'>Tickets</Nav.Link>
-        <Nav.Link href="/team" className='text-white font-gliker' to='/team'>Team</Nav.Link>
+        <Nav.Link><NavLink  className='text-white font-gliker' to="/">Discover</NavLink></Nav.Link>
+        <Nav.Link><NavLink  className='text-white font-gliker' to="/gallery">Gallery</NavLink></Nav.Link>
+        <Nav.Link><NavLink  className='text-white font-gliker' to='/tickets'>Tickets</NavLink></Nav.Link>
+        <Nav.Link><NavLink  className='text-white font-gliker' to='/team'>Team</NavLink></Nav.Link>
         {/* <Nav.Link href="/about" className='text-white font-gliker' to='/about'>About</Nav.Link> */}
       </Nav>
     </Navbar.Collapse>
