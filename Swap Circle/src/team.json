@@ -1,24 +1,45 @@
 [
     {
         "id": 1,
-        "name": "Onesie Afanale",
+        "name": "Miano Evalyne",
         "role": "Product Designer",
-        "url": "teamimages/pexels-davdkuko-2743754.jpg",
-        "description": "Onesie Afanale is a 22-year-old  Engineering Undergrad at Kenyatta University. Her interests revolve around sustainability, conservation, and the impact of human activities on the planet. Onesie’s  approach to environmental issues is both practical and creative... As an avid nature lover, she finds inspiration in the great outdoors, often taking long hikes to explore the beauty of Kenya's diverse landscapes. Whether she's biking through forest trails or participating in marathons, Onesie is always seeking her next adventure. Beyond her love of nature and adventure, Onesie is a fitness enthusiast who enjoys discovering new ways to stay active and healthy. Her infectious energy and positive outlook make her a natural leader in her social circles, inspiring others to try new things and push their boundaries. She is constantly on the lookout for opportunities to learn and grow, whether it's through engaging with different cultures, exploring new hobbies, or supporting causes she believes in. Her passion for adventure is matched by her commitment to her friends and the empowerment of women. She organizes group outings and camping trips, believing that these experiences help build strong, supportive communities. Onesie also participates in women's empowerment programs, where she mentors younger girls and encourages them to embrace challenges and strive for their dreams."
+        "url": "teamimages/Miano.jpg",
+        "description": "Miano is passionate about sustainability and conservation. She enjoys exploring Kenya's landscapes through hiking and biking, which fuels her commitment to environmental issues. Miano also engages in fitness and women's empowerment, mentoring younger girls and organizing community activities."
       },
       {
         "id": 2,
-        "name": "Ramani Afanale",
+        "name": "Ramani Valarine",
         "role": "Online Marketer",
-        "url": "teamimages/pexels-bestbe-models-975242-2100650.jpg ",
-        "description": "Ramani Afanale is a psychology graduate from Kenyatta University. Her academic journey in psychology has given her profound insights into the human mind and behavior, fueling her passion for understanding and helping others.Ramani's interests lie in mental health, emotional well-being, and the societal impacts of psychological principles. Her approach to psychology is both empathetic and analytical, allowing her to connect deeply with individuals while applying evidence-based methods to support their mental health. A compassionate and curious individual, Ramani finds joy in volunteering at local mental health clinics, where she provides support and guidance to those in need. She believes in the power of community and often organizes workshops to educate people about mental health, aiming to break the stigma and promote a culture of understanding and acceptance. Ramani is also an avid reader and enjoys exploring the latest research in psychology, constantly seeking to expand her knowledge and apply new findings to her practice. Her dedication to learning is matched by her desire to empower others, particularly women, to overcome challenges and achieve their full potential.Beyond her academic and professional pursuits, Ramani loves spending time outdoors, where she finds peace and inspiration. Whether she's meditating in a quiet park or participating in community yoga sessions, she values activities that nurture her well-being and allow her to connect with nature. Her commitment to mental health, combined with her empathetic nature and continuous quest for knowledge, makes Ramani Afanale a remarkable advocate for psychological well-being and a source of inspiration for those around her."
+        "url": "teamimages/Ramani.jpg ",
+        "description": "Ramani, a psychology graduate, is dedicated to mental health and emotional well-being. She volunteers at clinics, organizes workshops, and stays updated on psychological research. Enjoying meditation and yoga, Ramani combines her empathy and knowledge to support and empower others while promoting mental health awareness."
       },
       {
         "id": 3,
-        "name": "Maritim Afanale",
+        "name": "Maritim Mitchelle",
         "role": "Photo Journalist",
-        "url": "teamimages/pexels-luana-2080322.jpg",
-        "description": "Maritim Afanale is a dedicated student currently pursuing a degree in Petroleum Engineering at Kenyatta University. Her academic journey in petroleum engineering has fueled her passion for energy exploration, production processes, and environmental sustainability within the petroleum industry.Maritim is known for her analytical mindset and problem-solving skills, which she applies to understand and innovate within the field. She is committed to advancing technologies that improve efficiency and reduce environmental impact in oil and gas operations. Her goal is to contribute to the development of cleaner energy solutions that align with global environmental standards. Outside of her studies, Maritim actively engages in community activities and initiatives that promote education, environmental conservation, and youth empowerment. She participates in mentoring programs and volunteers her time to support causes she believes in, reflecting her leadership skills and commitment to making a positive impact. Maritim Afanale's dedication to he"
+        "url": "teamimages/Maritim.jpg",
+        "description": "Maritim is focused on energy innovation and sustainability, using her analytical skills to enhance efficiency and reduce environmental impact in the oil and gas industry. She actively mentors youth and supports education and conservation efforts, showing strong leadership and a commitment to positive change"
+      },
+      {
+        "id": 4,
+        "name": "Mark Mbiti",
+        "role": "Vibes",
+        "url": "teamimages/guy1.jpg ",
+        "description": "Mark Mbiti is passionate about technology and sustainability. He finds inspiration in hiking and biking, which fuel his work in renewable energy and environmental conservation. Mark is dedicated to mentoring others and promoting tech education, striving to inspire positive change in his community."
+      },
+      {
+        "id": 5,
+        "name": "Lady Nyakio",
+        "role": "Chief",
+        "url": "teamimages/guy2.jpg ",
+        "description": "Lady Nyakio is passionate about social change and cultural heritage. She supports community development and traditional practices, mentors young leaders, and promotes education. Her work reflects her commitment to empowering others and preserving her cultural roots."
+      },
+      {
+        "id": 6,
+        "name": "Arthur Rere",
+        "role": "Dj",
+        "url": "teamimages/guy3.jpg ",
+        "description": "Arthur Rere is dedicated to environmental conservation and sustainable living. He enjoys outdoor activities like hiking and gardening, which fuel his commitment to eco-friendly practices. Arthur actively participates in community projects and environmental advocacy, aiming to inspire others to adopt sustainable lifestyles and protect natural resources."
       }
       
       ]

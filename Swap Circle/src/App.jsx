@@ -6,11 +6,13 @@ import Gallery from './pages/Gallery';
 import Team from './pages/Team';
 import Tickets from './pages/Tickets';
 import About from './pages/About';
+import './styles/global.css';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
    
 <>
+{/* add gliker  */}
   <Route path='/' element={<MainLayout/>}>
     <Route index element={<LandingPage/>}/>
     <Route path='/gallery' element={<Gallery/>}/>

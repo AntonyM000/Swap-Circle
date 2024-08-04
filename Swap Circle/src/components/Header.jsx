@@ -12,32 +12,32 @@ const Header = () => {
   const linkClass=({isActive})=>(isActive ? 'm-auto rounded-xl text-white ring-1 ring-white ring-offset-1 p-1':'m-auto rounded-xl text-white p-1')
   return (
     <>
-    {/* <div className='expand flex w-full  z-10 bg-yellow-800 h-14  place-items-stretch '>
-        <NavLink className={linkClass} to='/' >Discover</NavLink>
-        <NavLink className={linkClass} to='/gallery' >Gallery </NavLink>
-        <NavLink className={linkClass} to='/team' >Team </NavLink>
-        <NavLink className={linkClass} to='/tickets' >Tickets </NavLink>
-        <NavLink className={linkClass} to='/about' >About </NavLink>
-</div> */}
-{/* <div className='md:hidden '> */}
-        <Navbar expand="sm" className="bg-yellow-800 ">
-      <Container>
-        <Navbar.Brand href="/" className='font-gliker text-white font-semibold'>Swap Circle</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className='border-white ' />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto gap-8">
-        
-            <NavLink href="/" className={linkClass} to="/" >Discover</NavLink>
-            <NavLink href="/Gallery" className={linkClass} to="/gallery">Gallery</NavLink >
-            <NavLink href="/tickets" className={linkClass} to='/tickets' >Tickets </NavLink >
-            <NavLink href="/team" className={linkClass} to='/team' >Team </NavLink>
-            <NavLink href="/about" className={linkClass} to='/about' >About </NavLink>
-            
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-{/* <div> */}
+    <div className='hidden md:flex w-full z-10 bg-yellow-800 h-14 place-items-stretch'>
+    <NavLink to="/" className='font-gliker text-lg m-auto text-white '>Swap Circle</NavLink>
+
+  <NavLink className={linkClass} to='/'>Discover</NavLink>
+  <NavLink className={linkClass} to='/gallery'>Gallery</NavLink>
+  <NavLink className={linkClass} to='/team'>Team</NavLink>
+  <NavLink className={linkClass} to='/tickets'>Tickets</NavLink>
+  {/* <NavLink className={linkClass} to='/about'>About</NavLink> */}
+</div>
+
+{/* This Navbar will be visible only on mobile devices */}
+<Navbar expand="sm" className="bg-yellow-800 md:hidden">
+  <Container>
+    <Navbar.Brand href="/" className='font-gliker text-white font-semibold'>Swap Circle</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" className='border-white ' />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto gap-8">
+        <Nav.Link href="/" className='text-white font-gliker' to="/">Discover</Nav.Link>
+        <Nav.Link href="/Gallery" className='text-white font-gliker' to="/gallery">Gallery</Nav.Link>
+        <Nav.Link href="/tickets" className='text-white font-gliker' to='/tickets'>Tickets</Nav.Link>
+        <Nav.Link href="/team" className='text-white font-gliker' to='/team'>Team</Nav.Link>
+        {/* <Nav.Link href="/about" className='text-white font-gliker' to='/about'>About</Nav.Link> */}
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
    
 
         {/* <button className=' p-1 rounded-xl text-white focus:ring-1 focus:ring-red-200 ring-offset-1 m-auto' >About</button> */}
