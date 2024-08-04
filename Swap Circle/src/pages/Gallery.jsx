@@ -52,7 +52,7 @@ const Gallery = () => {
       {/* Mobile view */}
       <div className="md:hidden bg-white flex flex-wrap justify-center">
         {images.map((image) => (
-          <div key={image.id} className="rounded-lg w-4/12 h-1/5 m-2 flex justify-center items-center">
+          <div key={image.id} className="rounded-lg w-5/12  m-1 flex justify-center items-center">
             <img 
               src={image.url} 
               alt="" 
