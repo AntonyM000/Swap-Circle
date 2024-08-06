@@ -3,13 +3,15 @@
         "id": 1,
         "name": "Miano Evalyne",
         "role": "Product Designer",
-        "url": "teamimages/Miano.jpg",
+        "imageId":"pg08wjgia1isbvfqiuwf",
+        "url": "teamimages/Miano.jpg",        
         "description": "Miano is passionate about sustainability and conservation. She enjoys exploring Kenya's landscapes through hiking and biking, which fuels her commitment to environmental issues. Miano also engages in fitness and women's empowerment, mentoring younger girls and organizing community activities."
       },
       {
         "id": 2,
         "name": "Ramani Valarine",
-        "role": "Online Marketer",
+        "role": "Online Marketer",        
+        "imageId": "pazb9bgsjiq5ach76pgd",
         "url": "teamimages/Ramani.jpg ",
         "description": "Ramani, a psychology graduate, is dedicated to mental health and emotional well-being. She volunteers at clinics, organizes workshops, and stays updated on psychological research. Enjoying meditation and yoga, Ramani combines her empathy and knowledge to support and empower others while promoting mental health awareness."
       },
@@ -18,6 +20,8 @@
         "name": "Maritim Mitchelle",
         "role": "Photo Journalist",
         "url": "teamimages/Maritim.jpg",
+        "imageId":"wx4aothcui9ggoxvbvsk",
+        
         "description": "Maritim is focused on energy innovation and sustainability, using her analytical skills to enhance efficiency and reduce environmental impact in the oil and gas industry. She actively mentors youth and supports education and conservation efforts, showing strong leadership and a commitment to positive change"
       },
       {
@@ -25,6 +29,7 @@
         "name": "Mark Mbiti",
         "role": "Vibes",
         "url": "teamimages/guy1.jpg ",
+        "imageId":"t1iznyzzc0zyk7mni3f3",
         "description": "Mark Mbiti is passionate about technology and sustainability. He finds inspiration in hiking and biking, which fuel his work in renewable energy and environmental conservation. Mark is dedicated to mentoring others and promoting tech education, striving to inspire positive change in his community."
       },
       {
@@ -32,6 +37,7 @@
         "name": "Lady Nyakio",
         "role": "Chief",
         "url": "teamimages/guy2.jpg ",
+        "imageId": "vkivejzbviov3afesb2k",
         "description": "Lady Nyakio is passionate about social change and cultural heritage. She supports community development and traditional practices, mentors young leaders, and promotes education. Her work reflects her commitment to empowering others and preserving her cultural roots."
       },
       {
@@ -39,6 +45,7 @@
         "name": "Arthur Rere",
         "role": "Dj",
         "url": "teamimages/guy3.jpg ",
+        "imageId": "rzgzfrpmnyokrumj0vsp",
         "description": "Arthur Rere is dedicated to environmental conservation and sustainable living. He enjoys outdoor activities like hiking and gardening, which fuel his commitment to eco-friendly practices. Arthur actively participates in community projects and environmental advocacy, aiming to inspire others to adopt sustainable lifestyles and protect natural resources."
       }
       

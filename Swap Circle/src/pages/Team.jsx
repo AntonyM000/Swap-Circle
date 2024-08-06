@@ -3,10 +3,16 @@ import team from '../team.json';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Cloudinary } from '@cloudinary/url-gen';
+import { auto } from '@cloudinary/url-gen/actions/resize';
+import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
+import { AdvancedImage } from '@cloudinary/react';
 
 function MyVerticallyCenteredModal({ show, onHide, teammember }) {
+
   return (
     <>
+   
       <Modal show={show} size="lg" aria-labelledby="contained-modal-title-vcenter" centered onHide={onHide}>
         <Modal.Header className="bg-white text-black" closeButton>
           {/* <Modal.Title id="contained-modal-title-vcenter">
@@ -30,6 +36,8 @@ function MyVerticallyCenteredModal({ show, onHide, teammember }) {
 }
 
 const Team = () => {
+  const cld = new Cloudinary({ cloud: { cloudName: 'dk2kibtgi' } });
+ 
   const [showModal, setShowModal] = useState(false);
   const [selectedMember, setSelectedMember] = useState(null);
 
@@ -44,16 +52,24 @@ const Team = () => {
       <h2 className='text-2xl font-normal font-sans -mt-16 ml-3 mr-3 mb-3'>Get to know the team</h2>
 
       <div className="rounded-lg m-2 flex flex-wrap justify-center items-center">
-        {team.map((teammember) => (
-          <div key={teammember.id} onClick={() => handleShowModal(teammember)} className='m-3 shadow rounded-lg p-3 cursor-pointer'>
-            <img src={teammember.url} alt="" className="rounded-lg w-52 object-contain" loading="lazy" />
-            <h3 className='text-2xl font-semibold '>{teammember.name}</h3>
-            <h3 className='text-slate-500'>{teammember.role}</h3>
-            <button onClick={() => handleShowModal(teammember)} className='mt-2 p-2 bg-white text-black border-1 border-black rounded'>
-              See More
-            </button>
-          </div>
-        ))}
+      {team.map((teammember) => {
+          const img = cld
+            .image(teammember.imageId)
+            .format('auto')
+            .quality('auto')
+            .resize(auto().gravity(autoGravity()).width(500).height(500));
+
+          return (
+            <div key={teammember.id} onClick={() => handleShowModal(teammember)} className='m-3 shadow rounded-lg p-3 cursor-pointer'>
+              <AdvancedImage cldImg={img} className='rounded-lg w-52 object-contain' />
+              <h3 className='text-2xl font-semibold '>{teammember.name}</h3>
+              <h3 className='text-slate-500'>{teammember.role}</h3>
+              <button onClick={() => handleShowModal(teammember)} className='mt-2 p-2 bg-white text-black border-1 border-black rounded'>
+                See More
+              </button>
+            </div>
+          );
+        })}
       </div>
 
       {selectedMember && (
