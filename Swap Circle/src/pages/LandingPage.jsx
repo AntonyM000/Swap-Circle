@@ -51,10 +51,10 @@ const LandingPage = () => {
     </div> */}
     <div className=' flex w-full ml-auto mr-auto'>
       <div className='container place-content-center'>
-          <h1 className="text-3xl text-center m-4">Elevate your wardrobe while saving the planet</h1>
-          <h3 className='w-10/12 text-center ml-auto mr-auto'>Events and opportunities  to exchange clothing items with others, fostering a circular economy in fashion.Discover a world of endless possibilities at Swap Circle, where like-minded individuals come together to share, trade, and connect. Our vibrant community is your go-to platform for swapping everything from fashion and electronics to home goods and collectibles.
+          {/* <h1 className="text-3xl text-center m-4">Elevate your wardrobe while saving the planet</h1> */}
+          <h3 className='w-10/12 font-medium text-lg mt-4 mx-auto '>Events and opportunities  to exchange clothing items with others, creating a circular economy in fashion.Join us at Swap Circle, where like-minded individuals come together to share, swap, and connect. Our vibrant community is your go-to platform for swapping clothing items.
           </h3>
-          <h3 className='w-10/12 text-center ml-auto mr-auto'>Experience the thrill of finding hidden treasures, giving new life to pre-loved items, and reducing your environmental impact. Join the Swap Circle movement today and unlock a sustainable and exciting way to refresh your life!</h3>
+          <h3 className='w-10/12 font-semibold text-lg  mx-auto '>Experience the thrill of finding hidden treasures, giving new life to pre-loved items, and reducing your environmental impact. Join the Swap Circle movement today </h3>
       </div>
     </div>
 
@@ -91,14 +91,16 @@ const LandingPage = () => {
 {/*SwapRules*/}
 <div className="  shadow p-3 flex justify-center mt-3 ml-auto mr-auto  rounded flex-col text-center">
   <h1 className="font-bold">About Swapmeets</h1>
-  <div className="">During swapmeets we bring together clothes for swapping.
-  </div>
+  {/* <div className="">During swapmeets we bring together clothes for swapping. */}
+  {/* </div> */}
     <div className='flex flex-col'>
-       <div className=' w-52 lg:container-sm  mt-2 bg-yellow-100 rounded flex flex-col justify-center float-left text-center  p-2'><img src="yellowstaredown.png" alt="" className='w-14'/>Step one:Get some tokens(points) awarded to the clothes you bought. The tokens you got will enable you to swap clothes</div>
-     
+       <div className=' container max-w-screen-md mt-2 bg-green-400 rounded flex flex-col justify-center mx-auto text-center  p-2'><img src="hangar1.png" alt="" className='w-14 mr-auto'/>Bought your ticket online? Get your code scanned at the registration desk or buy your ticket at the gate then head over to the token desk to submit your swapping items and receive your swapping tokens that you can redeem.</div>
+       <div className=' container max-w-screen-md mt-2 bg-green-400 rounded flex flex-col justify-center mx-auto text-center  p-2'><img src="hangar2.png" alt="" className='w-24 ml-auto '/>Use your tokens to get items you love. Pass by the creative corner to DIY your swappped items with Tie & Dye, get a ripped look or create an inclusive fashion scene with fun paper macge, modelling clay and more!.</div>
+       <div className=' container max-w-screen-md mt-2 bg-green-400 rounded flex flex-col justify-center mx-auto text-center  p-2'><img src="hangar3.png" alt="" className='w-32 ml-auto mr-auto'/>Bought your ticket online? Get your code scanned at the registration desk or buy your ticket at the gate then head over to the token desk to submit your swapping items and receive your swapping tokens that you can redeem.</div>
 
+       {/* <div className=' w-52 lg:container-sm  mt-2 bg-yellow-100 rounded flex flex-col justify-center float-left text-center  p-2'><img src="yellowstaredown.png" alt="" className='w-14'/>Step one:Get some tokens(points) awarded to the clothes you bought. The tokens you got will enable you to swap clothes</div>
     <div className="w-52  ml-auto mt-2 bg-yellow-100 rounded flex flex-col justify-center text-center  p-2"><img src="/yellow tap.png" alt="" className='w-14' />Step two: You can now walk around and get the apparels you love. We also have vending tables.</div>
-    <div className="w-52  ml-auto mt-2 bg-yellow-100 rounded flex flex-col justify-center text-center mr-auto p-2"><img src="/yellowmeditate.png" alt="" className='w-14 ml-auto mr-auto' />Step three: Use the points to check out clothes from the inventory</div>
+    <div className="w-52  ml-auto mt-2 bg-yellow-100 rounded flex flex-col justify-center text-center mr-auto p-2"><img src="/yellowmeditate.png" alt="" className='w-14 ml-auto mr-auto' />Step three: Use the points to check out clothes from the inventory</div> */}
 </div>
   {/* <video src="/swap video.mp4" className="ml-auto mr-auto mt-3 w-64 rounded-xl" controls></video> */}
 
@@ -107,20 +109,15 @@ const LandingPage = () => {
 {/* <script async src="//www.instagram.com/embed.js"></script> */}
   <div className='text-sm '>
     <p className='mt-2'>*MAXIMUM OF 8 CLOTHING ITEMS*</p>
-  <p className='mt-2'>*NO USED PANTIES*</p>
+  <p className='mt-2'>*NO USED UNDERWEAR*</p>
   <p className='mt-2'>*NO USED HOSIERY*</p>
-  <p className='mt-2'>*NO HANDBAGS*</p>
-  <p className='mt-2'>*NO WOMEN'S SHOES*</p>
+
   <img src="washing-machine_810199.png" alt="" className="w-32 m-auto"/>
   <p className="mt-2 font-bold">ITEMS MUST BE CLEAN & IN GOOD CONDITION</p>
-  <p className='mt-2'>*NO STAINS OR FADING*</p>
-  <p className='mt-2'>*NO TEARS,RIPS OR HOLES*</p>
   <p className='mt-2'>*NO UNDERARM STAINS OR ODORS*</p>
-  <p className='mt-2'>*NO USED PANTIES*</p>
   <p className="text-xs mt-2 ">We only accept fashion jewelry (costume jewelry) and do not accept fine jewelry.
 Fashion jewelry should not be made of precious metals, gemstones, pearls, or diamonds.
-If diamonds are sent, they will be assumed to be fake.
-We only accept panties and hosiery that are new with tags.</p>
+We only accept hosiery that are new with tags.</p>
 </div>
 </div>
 <br />

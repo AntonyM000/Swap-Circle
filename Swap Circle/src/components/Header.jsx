@@ -12,7 +12,7 @@ const Header = () => {
   const linkClass=({isActive})=>(isActive ? 'm-auto rounded-xl text-white ring-1 ring-white ring-offset-1 p-1':'m-auto rounded-xl text-white p-1')
   return (
     <>
-    <div className='hidden md:flex w-full z-10 bg-yellow-800 h-14 place-items-stretch'>
+    <div className='hidden md:flex w-full z-10 bg-green-500 h-14 place-items-stretch'>
     <NavLink to="/" className='font-gliker text-lg m-auto text-white '>Swap Circle</NavLink>
 
   <NavLink className={linkClass} to='/'>Discover</NavLink>
@@ -23,7 +23,7 @@ const Header = () => {
 </div>
 
 {/* This Navbar will be visible only on mobile devices */}
-<Navbar expand="sm" className="bg-yellow-800 md:hidden">
+<Navbar expand="sm" className="bg-green-500 md:hidden">
   <Container>
     <Navbar.Brand href="/" className='font-gliker text-white font-semibold'>Swap Circle</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" className='border-white ' />

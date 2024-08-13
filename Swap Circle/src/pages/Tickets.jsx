@@ -320,13 +320,13 @@ function generateRandomCode() {
     <div className="flex flex-wrap justify-center">
         {products.map((product) => (
           <div key={product.id} className="m-4 rounded-3xl">
-            <div className="bg-slate-100 rounded-t-xl bg-no-repeat w-48 bg-cover container">
+            <div className="bg-slate-100 rounded-t-xl bg-no-repeat w-56 bg-cover container">
               <div className="container-xl">
                 <img src={product.img} alt="" className="w-48 h-40" />
               </div>
             </div>
 
-            <div className="container-xl w-48 rounded-b-xl flex flex-col shadow">
+            <div className="container-xl w-56 rounded-b-xl flex flex-col shadow">
               <h5 className="text-slate-500 text-xs">{product.date}</h5>
               <h3 className="font-bold">{product.name}</h3>
               <h5 className="text-slate-500 text-sm">Ksh.{product.price}</h5>
@@ -342,6 +342,11 @@ function generateRandomCode() {
                 <LuShoppingBag className="mt-1 mr-1" />
                 Add
               </button>
+              <Button variant="primary" onClick={handleShow} className="me-2 mb-4 bg-white  text-black shadow-2xl float-right p-1 m-1 rounded-lg flex justify-center">
+              Checkout<LuShoppingBag className='m-1'/><label className="rounded-3xl w-6 justify-center text-white bg-black ml-1">
+          {getTotalQuantity()}
+        </label>
+      </Button>
             </div>
           </div>
         ))}
