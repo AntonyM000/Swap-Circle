@@ -239,7 +239,7 @@ function generateRandomCode() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow} className="me-2 mb-4 bg-white text-black shadow-2xl float-right p-1 m-1 bg- rounded-lg flex justify-center">
+      <Button variant="primary" onClick={handleShow} className=" me-2 mb-4 bg-white text-black shadow-2xl float-right p-1 m-1 bg- rounded-lg flex justify-center">
       Checkout<LuShoppingBag className='m-1'/><label className="rounded-3xl w-6 justify-center text-white bg-black ml-1">
           {getTotalQuantity()}
         </label>

@@ -1,3 +1,28 @@
+// ,
+// {
+//   "id": 4,
+//   "name": "Mark Mbiti",
+//   "role": "Vibes",
+//   "url": "teamimages/guy1.jpg ",
+//   "imageId":"t1iznyzzc0zyk7mni3f3",
+//   "description": "Mark Mbiti is passionate about technology and sustainability. He finds inspiration in hiking and biking, which fuel his work in renewable energy and environmental conservation. Mark is dedicated to mentoring others and promoting tech education, striving to inspire positive change in his community."
+// },
+// {
+//   "id": 5,
+//   "name": "Lady Nyakio",
+//   "role": "Chief",
+//   "url": "teamimages/guy2.jpg ",
+//   "imageId": "vkivejzbviov3afesb2k",
+//   "description": "Lady Nyakio is passionate about social change and cultural heritage. She supports community development and traditional practices, mentors young leaders, and promotes education. Her work reflects her commitment to empowering others and preserving her cultural roots."
+// },
+// {
+//   "id": 6,
+//   "name": "Arthur Rere",
+//   "role": "Dj",
+//   "url": "teamimages/guy3.jpg ",
+//   "imageId": "rzgzfrpmnyokrumj0vsp",
+//   "description": "Arthur Rere is dedicated to environmental conservation and sustainable living. He enjoys outdoor activities like hiking and gardening, which fuel his commitment to eco-friendly practices. Arthur actively participates in community projects and environmental advocacy, aiming to inspire others to adopt sustainable lifestyles and protect natural resources."
+// }
 import React, { useState } from 'react';
 import team from '../team.json';
 import Button from 'react-bootstrap/Button';
